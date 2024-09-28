@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mhacks"
+version = "0.1.0"
+description = ""
+authors = ["hellovai <vbv@boundaryml.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+baml-py = "^0.57.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
